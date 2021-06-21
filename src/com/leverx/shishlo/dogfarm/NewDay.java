@@ -12,10 +12,10 @@ public class NewDay {
 
         var dogs = createDogs(List.of("Tuzik", "Sharik", "Reks", "Polkan"));
         var aviaries = createAviaries(dogs);
-        var sasha = new Cleaner("Sasha");
+        var grisha = new Cleaner("Grisha");
         var misha = new Cleaner("Misha");
         var alexander = new Veterinarian("Alexander");
-        var staffs = List.of(sasha, alexander, misha);
+        var staffs = List.of(grisha, alexander, misha);
 
         System.out.printf("A new day begins at the dog farm.%n%n");
 
@@ -29,7 +29,7 @@ public class NewDay {
             dog.doWork();
         }
 
-        sasha.doWork();
+        grisha.doWork();
 
         System.out.println("Another day came to an end at the dog farm.");
 
